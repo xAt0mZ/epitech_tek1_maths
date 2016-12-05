@@ -1,0 +1,14 @@
+T : u(xu ; yu) -> translation de vecteur u
+  (x' / y' / 1) = (1 0 xu / 0 1 yu / 0 0 1) * (x / y / 1)
+
+
+H : (hx , hy) -> homothétie de rapport hx sur (x) et hy sur (y)
+  (x' / y' / 1) = (hx 0 0 / 0 hy 0 / 0 0 1) * (x / y / 1)
+
+
+R : (O(0;0) , &) -> rotation de centre O et d'angle &
+  (x' / y' / 1) = (cos& -sin& 0 / sin& cos& 0 / 0 0 1) * (x / y / 1)
+
+
+Sax : (&) -> symétrie d'angle & par rapport à Ox
+    R(-&) -> Sox -> R(&)
